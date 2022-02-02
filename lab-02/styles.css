@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  background-color: black;
+}
+
+nav a {
+  display: block;
+  width: 12em;
+  background-color: #0000ff50;
+  color: white;
+  padding: 0.5em;
+  margin: 0.5em;
+
+  transition: blue 0.7s
+}
+
+nav a:hover {
+  background-color: aValueChosenByYou;
+}
+
+header, main {
+  overflow: auto;
+}
