@@ -1,0 +1,14 @@
+@media screen and (min-width: 500px) {
+  #menuToggler {
+    display: none;
+  }
+
+}
+
+nav {
+  display: none;
+  flex-direction: column;
+}
+nav.open {
+  display: flex;
+}
